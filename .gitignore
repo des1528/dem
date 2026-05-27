@@ -1,0 +1,28 @@
+# --- Артефакты сборки .NET / WPF ---
+**/bin/
+**/obj/
+**/.vs/
+**/packages/
+*.suo
+*.user
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# --- Распакованные ресурсы (можно восстановить из .rar) ---
+_extracted/
+
+# --- Видео уроки (превышают лимит GitHub в 100 МБ) ---
+*.mp4
+*.mov
+*.avi
+
+# --- Системные ---
+desktop.ini
+Thumbs.db
+.DS_Store
+~$*
